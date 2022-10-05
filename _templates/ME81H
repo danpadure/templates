@@ -12,3 +12,13 @@ category: misc
 type: Thermostat
 standard: eu
 ---
+
+## Alternate powering (DC)
+
+If you want to power it using DC, then remove the backside.  It's connected to the main board with 4 wires:
+DC +12V input
+GND
+3.3V permanent output
+3V trigger output
+
+So it should work by powering with a 12V DC power supply, and it could activate a 3V relay
